@@ -1,2 +1,7 @@
-# python-deseriable
+# Python-Deserializable
 python编写restful接口时，反序列化方法的实现，避免碰见“Map传参，同事过来就是一jio”的尴尬现象。
+通常flask这种框架接收post参数时候非常笨重，如果json文件过长，难以解析。
+这时候传统方法有两种：
+第一种，就是直接解析json来获取参数。
+第二种，手动反序列化json来获取我们想要的对象。
+这里将第二种反序列化升级为自动化版本的实现。
